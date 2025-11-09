@@ -1,6 +1,6 @@
 // Import images so Vite can process them correctly
-import yesImage from './assets/I-knew-you-d-say-yes-Raven-09-11-2025.png';
-import initialImage from './assets/Will-You-Play-Roblox-With-Me-09-11-2025.png';
+import yesImage from "./assets/I-knew-you-d-say-yes-Raven-09-11-2025.png";
+import initialImage from "./assets/Will-You-Play-Roblox-With-Me-09-11-2025.png";
 
 const container = document.getElementById("container");
 const imageOne = document.querySelector(".image-1");
