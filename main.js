@@ -1,3 +1,7 @@
+// Import images so Vite can process them correctly
+import yesImage from './assets/I-knew-you-d-say-yes-Raven-09-11-2025.png';
+import initialImage from './assets/Will-You-Play-Roblox-With-Me-09-11-2025.png';
+
 const container = document.getElementById("container");
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
@@ -53,7 +57,7 @@ btnYes.addEventListener("click", (e) => {
 
   // After fade out, change the image and fade in
   setTimeout(() => {
-    headerImg.src = "assets/I-knew-you-d-say-yes-Raven-09-11-2025.png";
+    headerImg.src = yesImage;
     headerImg.alt = "I knew you'd say yes!";
     headerImg.style.opacity = "1";
   }, 500);
@@ -79,7 +83,7 @@ btnRestart.addEventListener("click", () => {
 
   // Reset everything
   setTimeout(() => {
-    headerImg.src = "assets/Will-You-Play-Roblox-With-Me-09-11-2025.png";
+    headerImg.src = initialImage;
     headerImg.alt = "Will you play?";
     headerImg.style.opacity = "1";
 
