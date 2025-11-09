@@ -7,8 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sync": "npm run build && npx cap sync",
-    "build:apk": "npm run sync && cd android && .\\gradlew assembleDebug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,10 +22,5 @@
   "homepage": "https://github.com/Lee-04-Git/Asking-Her#readme",
   "devDependencies": {
     "vite": "^6.4.1"
-  },
-  "dependencies": {
-    "@capacitor/android": "^7.4.4",
-    "@capacitor/cli": "^7.4.4",
-    "@capacitor/core": "^7.4.4"
   }
 }
